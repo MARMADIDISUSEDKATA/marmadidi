@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f8e8c0, #e0b868);
+    color: #4b3000;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ffd700;
+    color: #4b3000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffec8b;
+}
+
+.hidden {
+    display: none;
+}

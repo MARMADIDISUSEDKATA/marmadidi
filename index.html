@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marmadidi - Stardoll Style</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Welcome to Marmadidi 🌟</h1>
+        <div class="login" id="login">
+            <input type="text" id="username" placeholder="Enter Username" />
+            <input type="password" id="password" placeholder="Enter Password" />
+            <button onclick="login()">Enter</button>
+        </div>
+
+        <div id="game" class="hidden">
+            <h2>Hello, <span id="userDisplay"></span>!</h2>
+            <p>Fame: <span id="fame">0</span></p>
+            <p>Level: <span id="level">1</span></p>
+            <p>Rank: <span id="rank">Nova</span></p>
+            <button onclick="playGame()">💄 Play Dress Up (Click!)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
